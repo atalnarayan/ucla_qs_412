@@ -1,3 +1,3 @@
 - [] Implement the nmr compiler
-- [] Implement the pulse sequence for the 24 Pauli gates -- validate using qutip
-- [] Write compiler to compile a Clifford sequence to the Pauli gates.
+- [] Implement the pulse sequence for the 24 Pauli gates -- validate using qutip (Think of a nice name for this module)
+- [] Write code that takes a clifford sequence as input and generates the nmr code using nmr compiler and clifford
