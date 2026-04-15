@@ -1,5 +1,5 @@
 - [x] Implement the nmr compiler
 - [] Get the nmr compiler reviewed by Claude
 - [] Implement the pulse sequence for the 24 Pauli gates -- validate using qutip (Think of a nice name for this module)
-    - [] Look at the plausability of frame shifts
+    - [] Look at the plausability of frame shifts for Rz pulses
 - [] Write code that takes a clifford sequence as input and generates the nmr code using nmr compiler and clifford
