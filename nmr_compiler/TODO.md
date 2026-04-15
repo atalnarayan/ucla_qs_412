@@ -124,15 +124,15 @@ This TODO list is derived from `plan.md` and is intended to be implementation-re
 ## Phase 10: Tests
 
 - [x] Add lowering unit tests:
-  - [ ] `Rx(+90, "13C")`
+  - [x] `Rx(+90, "13C")`
   - [x] `Ry(-90, "13C")`
   - [x] `Rx(+180, "1H")`
-  - [ ] duration override
+  - [x] duration override
   - [x] amplitude override
 - [x] Add automatic-delay insertion tests.
 - [x] Add `WaitUs(2325)` rendering tests.
-- [ ] Add `pp_list` derivation tests for both detection modes.
-- [ ] Add `phaseList` exact-match tests for both scaffolds.
+- [x] Add `pp_list` derivation tests for both detection modes.
+- [x] Add `phaseList` exact-match tests for both scaffolds.
 - [x] Add synthetic empty-body CHCl3 FID tests for both scaffolds.
 - [x] Add snapshot tests against:
   - [x] `DJ_f1_13C_p0`
@@ -142,7 +142,7 @@ This TODO list is derived from `plan.md` and is intended to be implementation-re
   - [x] `Grover_11_1H_p0`
   - [x] `CNOT_TT_1H_00_p0`
 - [x] Add a test that TT programs compile correctly under the DJ/Grover relationship superset.
-- [ ] Add validation tests for unsupported nuclei, bad axes, unknown presets, and overwrite behavior.
+- [x] Add validation tests for unsupported nuclei, bad axes, unknown presets, and overwrite behavior.
 
 ## Phase 11: Optional CLI
 

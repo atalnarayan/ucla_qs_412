@@ -165,4 +165,7 @@ SCAFFOLDS_BY_NUCLEUS: dict[Nucleus, Scaffold] = {
 
 
 def get_scaffold(detect_nucleus: Nucleus) -> Scaffold:
-    return SCAFFOLDS_BY_NUCLEUS[detect_nucleus]
+    try:
+        return SCAFFOLDS_BY_NUCLEUS[detect_nucleus]
+    except KeyError as exc:
+        raise ValueError(f"Unsupported detect_nucleus: {detect_nucleus}") from exc
